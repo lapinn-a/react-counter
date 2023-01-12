@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  font-family: "PT Sans";
+}
+
+a {
+  cursor: default;
+}
+
+.nav-button {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "PT Sans";
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 20px;
+  border: 0;
+  width: 135px;
+  height: 55px;
+  margin: 0 10px;
+  line-height: 55px;
+}
+
+.nav-button:hover {
+  background: #B40000;
+}
+
+.active {
+  background: #B40000;
+}
+
+.nav-button:active {
+  color: #EEEEEE;
+  background: #780000;
+}
+
+.counter-button {
+  font-family: "PT Sans";
+  font-size: 36px;
+  font-weight: 400;
+  background: #FFFFFF;
+  color: #000000;
+  border: 0;
+  width: 55px;
+  height: 55px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.counter-button:hover {
+  background: #B40000;
+  color: #FFFFFF;
+}
+
+.counter-button:active {
+  background: #780000;
+  color: #EEEEEE;
+}
+
+.App {
+  text-align: center;
+  background: #F5F5F5;
+  padding: 0px; 
+}
+
+.main {
+  font-weight: 400;
+  width: 640px;
+  height: 480px;
+  background: #323232;
+}
+
+.page {
+  background: #000000;
+  margin: 20px 20px 0px 20px;
+  height: 290px;
+}
+
+.header {
+  font-family: "PT Sans";
+  text-align: left;
+  padding: 0 20px;
+  font-size: 32px;
+  font-weight: 400;
+  background: #000000;
+  height: 75px;
+  color: #FFFFFF;
+  vertical-align: middle;
+  line-height: 75px;
+}
+
+.page-title {
+  font-family: "PT Sans";
+  text-align: left;
+  padding: 10px 20px;
+  margin: 0;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.text {
+  font-family: "PT Sans";
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 30px 0 0;
+  background: #000000;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+
+.counter {
+  font-family: "PT Sans";
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+  padding: 10px 0;
+  background: #000000;
+  color: #FFFFFF;
+}
+
+/*.page-div {
+  width:
+  height:
+}*/
